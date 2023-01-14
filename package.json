@@ -1,0 +1,23 @@
+{
+  "name": "ksv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bson": "^4.7.2",
+    "crypto-random": "^2.0.1",
+    "openpgp": "^5.5.0"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node16-linux"
+    ],
+    "outputPath": "dist"
+  }
+}
